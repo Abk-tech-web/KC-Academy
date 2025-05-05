@@ -33,7 +33,7 @@
     }
 
     header img.logo {
-      height: 100px;
+      height: 160px; /* Bigger logo */
     }
 
     h1 {
@@ -48,10 +48,17 @@
     }
 
     .founder-section img {
-      height: 200px;
+      height: 280px; /* Bigger CEO image */
       width: auto;
       border-radius: 10px;
       border: 3px solid #00ffd5;
+      display: block;
+      margin: auto;
+    }
+
+    .founder-section p {
+      text-align: center;
+      margin-top: 10px;
     }
 
     .section h2 {
@@ -62,7 +69,22 @@
       width: 100%;
       max-width: 600px;
       border-radius: 8px;
-      margin-top: 15px;
+      margin: 15px 0;
+    }
+
+    .contact-details {
+      background: #111827;
+      padding: 30px 20px;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .contact-details h2 {
+      color: #00ffd5;
+    }
+
+    .contact-details p {
+      margin: 5px 0;
     }
 
     footer {
@@ -78,19 +100,16 @@
 
 <nav>
   <div><a href="index.html">Home</a></div>
-  <div>
-    <a href="contact.html">Contact</a>
-  </div>
 </nav>
 
 <header>
-  <!-- Logo placeholder -->
+  <!-- Bigger Logo -->
   <img src="kc-academy-logo.png" alt="KC Academy Logo" class="logo">
   <h1>KC Academy School of Strategy and Blockchain Technology</h1>
 </header>
 
 <div class="founder-section">
-  <!-- Founder Photo -->
+  <!-- Bigger CEO Photo -->
   <img src="founder-photo.jpg" alt="ENGR AUWAL ZUBAIR">
   <p><strong>ENGR AUWAL ZUBAIR</strong><br>Founder and CEO of KC Academy</p>
 </div>
@@ -104,28 +123,40 @@
 
 <section class="section offerings">
   <h2>What We Offer</h2>
+
   <h3>1. Technical Analysis</h3>
   <p>
     Evaluating crypto markets through price charts, volume, and trends to predict movements and make smart trades.
   </p>
+  <img src="technical-analysis.jpg" alt="Technical Analysis Image">
 
   <h3>2. Fundamental Analysis</h3>
   <p>
     Understanding the real-world value of cryptocurrencies by studying their technology, team, use case, and utility.
   </p>
+  <img src="fundamental-analysis.jpg" alt="Fundamental Analysis Image">
 
   <h3>3. On-Chain Analysis</h3>
   <p>
     Examining blockchain data like transactions, wallet flows, and supply to gain deeper insights into the market.
   </p>
+  <img src="onchain-analysis.jpg" alt="On-Chain Analysis Image">
 
   <h3>4. Candlestick Patterns</h3>
   <p>
     Learn to read candlestick patterns to detect market trends, reversals, and price actions.
   </p>
-
-  <!-- Candlestick Image Placeholder -->
   <img src="candlestick-pattern.jpg" alt="Candlestick Chart Pattern">
+</section>
+
+<section class="contact-details">
+  <h2>Contact Us</h2>
+  <p><strong>Phone:</strong> +2347083468976</p>
+  <p><strong>WhatsApp:</strong> Chat us at +2347083468976</p>
+  <p><strong>Facebook:</strong>
+    <a href="https://www.facebook.com/auwal.zubair.39" target="_blank" style="color:#00ffd5;">facebook.com/auwal.zubair.39</a>
+  </p>
+  <p><strong>Address:</strong> Gidan Kankara S/ Mainagge by Muneer store, Gwale LGA, Kano State, Nigeria</p>
 </section>
 
 <footer>
